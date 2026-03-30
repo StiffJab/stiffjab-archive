@@ -1,0 +1,26 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Georgia, serif; background: #fafaf8; color: #222; max-width: 780px; margin: 0 auto; padding: 20px; }
+.site-header { border-bottom: 2px solid #222; padding-bottom: 12px; margin-bottom: 32px; }
+.site-title { font-size: 2.4em; font-weight: bold; text-decoration: none; color: #222; letter-spacing: -1px; }
+a.site-title:hover { color: #555; }
+.site-subtitle { font-size: 0.95em; color: #666; margin-top: 4px; display: block; }
+h1 { font-size: 1.9em; line-height: 1.2; margin-bottom: 12px; }
+.meta { font-size: 0.85em; color: #666; margin-bottom: 28px; }
+.meta span { margin-right: 14px; }
+article p { font-size: 1.1em; line-height: 1.75; margin-bottom: 22px; }
+article h3 { font-size: 1.3em; margin: 28px 0 12px; }
+article img { max-width: 100%; height: auto; margin: 20px 0; }
+article figure { margin: 20px 0; }
+.tags { margin-top: 32px; border-top: 1px solid #ddd; padding-top: 14px; }
+.tag { display: inline-block; background: #eee; padding: 3px 10px; border-radius: 3px; font-size: 0.8em; margin: 3px; font-family: sans-serif; }
+.post-index { list-style: none; }
+.post-index li { padding: 14px 0; border-bottom: 1px solid #eee; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.post-index a { font-size: 1.05em; color: #222; text-decoration: none; flex: 1; }
+.post-index a:hover { text-decoration: underline; }
+.index-date { font-size: 0.8em; color: #888; white-space: nowrap; font-family: sans-serif; min-width: 110px; }
+.index-author { font-size: 0.8em; color: #666; font-family: sans-serif; }
+.badge-medium, .badge-tumblr, .badge-draft { font-size: 0.7em; padding: 2px 7px; border-radius: 3px; font-family: sans-serif; }
+.badge-medium { background: #e8f4e8; color: #2a6; }
+.badge-tumblr { background: #e8eaf6; color: #35e; }
+.badge-draft { background: #fff3e0; color: #e65; }
+.site-footer { margin-top: 48px; border-top: 1px solid #ddd; padding-top: 16px; font-size: 0.8em; color: #999; font-family: sans-serif; }
